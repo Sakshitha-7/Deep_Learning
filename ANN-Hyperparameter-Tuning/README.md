@@ -14,14 +14,14 @@ These choices are called hyperparameters. Instead of trying each one manually, w
 ## Dataset
 Pima Indians Diabetes Dataset - The dataset contains medical diagnostic measurements used to predict whether a patient has diabetes.
 Features:
-    Pregnancies
-    Glucose
-    Blood Pressure
-    Skin Thickness
-    Insulin
-    BMI
-    Diabetes Pedigree Function
-    Age
+   - Pregnancies
+   - Glucose
+   - Blood Pressure
+   - Skin Thickness
+   - Insulin
+   - BMI
+   - Diabetes Pedigree Function
+   - Age
 
 Target Variable:
 Diabetes Outcome (0 = Non-Diabetic, 1 = Diabetic)
