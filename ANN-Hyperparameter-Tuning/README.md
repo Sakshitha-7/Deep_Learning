@@ -28,13 +28,13 @@ Diabetes Outcome (0 = Non-Diabetic, 1 = Diabetic)
 
 
 ## What I Did
-1.Loaded and cleaned the data
-2.Built a basic neural network first (without tuning)
-3.Used Keras Tuner to automatically find the best:
+-1.Loaded and cleaned the data
+-2.Built a basic neural network first (without tuning)
+-3.Used Keras Tuner to automatically find the best:
   -Optimizer (adam, sgd, rmsprop, adadelta)
   -Number of neurons (searched between 8 and 124)
   -Number of layers (searched between 1 and 10)
-4.Trained the best model for 100 epochs
+-4.Trained the best model for 100 epochs
 
 
 ## What I Learned
