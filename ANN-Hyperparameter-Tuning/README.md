@@ -28,27 +28,27 @@ Diabetes Outcome (0 = Non-Diabetic, 1 = Diabetic)
 
 
 ## What I Did
--1.Loaded and cleaned the data
--2.Built a basic neural network first (without tuning)
--3.Used Keras Tuner to automatically find the best:
-  -Optimizer (adam, sgd, rmsprop, adadelta)
-  -Number of neurons (searched between 8 and 124)
-  -Number of layers (searched between 1 and 10)
--4.Trained the best model for 100 epochs
+ -1.Loaded and cleaned the data
+ -2.Built a basic neural network first (without tuning)
+ -3.Used Keras Tuner to automatically find the best:
+   -Optimizer (adam, sgd, rmsprop, adadelta)
+   -Number of neurons (searched between 8 and 124)
+   -Number of layers (searched between 1 and 10)
+ -4.Trained the best model for 100 epochs
 
 
 ## What I Learned
--Manually picking hyperparameters wastes a lot of time
--Keras Tuner tries different combinations and picks the best one
--Small changes in architecture can affect accuracy a lot
+ -Manually picking hyperparameters wastes a lot of time
+ -Keras Tuner tries different combinations and picks the best one
+ -Small changes in architecture can affect accuracy a lot
 
 
 ##Tools Used
-Python
-Pandas, NumPy
-Scikit-learn
-TensorFlow / Keras
-Keras Tuner
+     -Python
+     -Pandas, NumPy
+     -Scikit-learn
+     -TensorFlow / Keras
+     -Keras Tuner
 
 ## Colab link 
 https://colab.research.google.com/drive/1MKH180Kz0JP_VxtCNaNtRL2QERDdSac_?usp=sharing
